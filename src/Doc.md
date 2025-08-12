@@ -2,8 +2,8 @@
 
 ## PROJECT DESCRIPTION
 
-A fully functional app tailored to my crochet business with product browsing, cart, admin
-features and users accounts.
+A modern, user-friendly, and  functional app tailored to my crochet business with product browsing, cart, admin
+features and users accounts. The platform enables users to browse curated catalog, add favorites to wishlist, manage their shopping cart and complete simulated purchases.
 **PROJECT CORE FEATURES AND REQUIREMENTS**
 
 **1. Product Catalog and Browsing**
