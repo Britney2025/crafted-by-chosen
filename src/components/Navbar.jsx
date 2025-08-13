@@ -5,11 +5,11 @@ function Navbar() {
   return (
     <div>
         <nav>
-            <Link>Crafted By Chosen</Link>
-            <Link>Products</Link>
-            <Link>Wishlist</Link>
-            <Link>Cart</Link>
-            <Link>Login</Link>
+            <Link to="/">Crafted By Chosen</Link>
+            <Link to="/products">Products</Link>
+            <Link to="/wishlist">Wishlist</Link>
+            <Link to="/cart">Cart</Link>
+            <Link to="/account">My Account</Link>
         </nav>
     </div>
   )
