@@ -1,8 +1,9 @@
 import React from 'react'
+import { FaHeart, FaShoppingCart, FaUser } from 'react-icons/fa'
 
 function Navbar() {
     return (
-        <nav className="w-full bg-[#FAF4EF] border-b border-gray-200">
+        <nav className="w-full bg-[#f1e7dd] border-b border-gray-200">
             <div className="max-w-7xl mx-auto px-4 flex items-center justify-between py-4">
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
