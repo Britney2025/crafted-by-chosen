@@ -1,72 +1,29 @@
 import React from "react";
-export default function HomePage() {
+export default function HeroSection() {
     return (
-        <div className="min-h-screen bg-[#fdf8f5]">
-            {/* Navbar */}
-            <nav className="flex justify-between items-center px-6 py-4 shadow-sm bg-white">
-                {/* Logo */}
-                <div className="flex items-center gap-2">
-                    <img
-                        src="https://cdn-icons-png.flaticon.com/512/2935/2935317.png"
-                        alt="logo"
-                        className="w-10 h-10"
-                    />
-                    <h1 className="font-bold text-lg tracking-wide">
-                        Crafted by Chosen
+        <section className="bg-[#f1e7dd]">
+            <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                {/* Left Content */}
+                <div className="text-center md:text-left">
+                    <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4 text-gray-800">
+                        Handcrafted with <span className="text-orange-500">Love</span> & Style
                     </h1>
+                    <p className="text-gray-600 mb-6">
+                        Discover unique crochet pieces designed to bring warmth, beauty, and elegance to your wardrobe.
+                    </p>
+                    <button className="bg-[#a4826d] text-white px-6 py-3 rounded-lg shadow hover:bg-orange-600 transition">
+                        Shop Now
+                    </button>
                 </div>
-                {/* Menu Links */}
-                <ul className="flex gap-6 font-medium text-gray-700">
-                    <li className="hover:text-orange-500 cursor-pointer">Home</li>
-                    <li className="hover:text-orange-500 cursor-pointer">Products</li>
-                    <li className="hover:text-orange-500 cursor-pointer">Wishlist</li>
-                    <li className="hover:text-orange-500 cursor-pointer">Cart</li>
-                    <li className="hover:text-orange-500 cursor-pointer">My Account</li>
-                </ul>
-            </nav>
-            {/* Hero Section */}
-            <section className="text-center mt-8">
-                <h2 className="text-3xl font-bold tracking-wide mb-2">
-                    WELCOME TO CRAFTED BY CHOSEN
-                </h2>
-                <p className="text-gray-600 mb-6">
-                    We have many promos for you every day, don’t miss out. Checkout now!
-                </p>
-                <button className="bg-orange-500 text-white px-6 py-2 rounded-full shadow hover:bg-orange-600 transition">
-                    SHOP NOW
-                </button>
-            </section>
-            {/* Product Grid */}
-            <section className="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10 px-4">
-                <div className="rounded-lg overflow-hidden border-4 border-orange-400">
+                {/* Right Image */}
+                <div className="flex justify-center">
                     <img
-                        src="https://via.placeholder.com/200"
-                        alt="product"
-                        className="w-full h-full object-cover"
+                        src="/hero-product.png" // Replace with your featured product image
+                        alt="Featured Crochet"
+                        className="w-full max-w-md rounded-lg shadow-lg"
                     />
                 </div>
-                <div className="rounded-lg overflow-hidden border-4 border-orange-400">
-                    <img
-                        src="https://via.placeholder.com/200"
-                        alt="product"
-                        className="w-full h-full object-cover"
-                    />
-                </div>
-                <div className="rounded-lg overflow-hidden border-4 border-orange-400">
-                    <img
-                        src="https://via.placeholder.com/200"
-                        alt="product"
-                        className="w-full h-full object-cover"
-                    />
-                </div>
-                <div className="rounded-lg overflow-hidden border-4 border-orange-400">
-                    <img
-                        src="https://via.placeholder.com/200"
-                        alt="product"
-                        className="w-full h-full object-cover"
-                    />
-                </div>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 }
